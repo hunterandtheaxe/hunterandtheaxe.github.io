@@ -402,3 +402,27 @@ audio::-webkit-media-controls-panel{
 audio::-webkit-media-controls-panel:hover{
     background-image: linear-gradient(gold, rgb(255, 234, 117));
 }
+
+@media (max-width: 600px) {
+    .container{
+        width:100%;
+        padding:0;
+    }
+
+    #intro h3{
+        padding-left:0;
+        text-align: center;
+
+    }
+
+    #endstatement h3 {
+        padding-right: 0;
+        text-align:center;
+    }
+
+    .center-player {
+        display: flex;
+        justify-content: center;
+        align-items: center 
+      }
+}
